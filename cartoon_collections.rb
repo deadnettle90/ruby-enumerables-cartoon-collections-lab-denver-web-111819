@@ -10,10 +10,11 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls = []
-  planeteer_calls.map do |planeteer_calls|
-    puts "#{planeteer_calls.capitalize}!"
+  new_array = []
+  planeteer_calls.map do |p|
+    planeteer_calls << "#{planeteer_calls.capitalize}!"
   end  
+  puts planeteer_calls
 end
 
 def long_planeteer_calls()
