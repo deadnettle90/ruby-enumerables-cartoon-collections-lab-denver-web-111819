@@ -8,7 +8,6 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-
 def summon_captain_planet(array)
   planeteer_calls = []
   array.collect do |call|
