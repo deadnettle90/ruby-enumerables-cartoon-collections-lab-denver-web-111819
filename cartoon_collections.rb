@@ -1,6 +1,7 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 words = ["five", "apple", "blue", "red"]
+snacks = ["crackers", "gouda", "thyme"]
 
 def roll_call_dwarves(dwarves)
   index = 0
